@@ -1,0 +1,42 @@
+/* .btn_red{
+    padding: 15px;
+    font-size: 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background: red;
+    color: white;
+}
+.btn_blue{
+    padding: 15px;
+    font-size: 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background: blue;
+    color: white;
+} */
+
+.main_btn{
+    padding: 15px;
+    font-size: 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    color: white;
+}
+.bg_red{
+    background: red;
+}
+.bg_blue{
+    background: blue;
+}
+.f_small{
+    font-size: 12px;
+}
+.f_mid{
+    font-size: 14px;
+}
+.f_lg{
+    font-size: 16px;
+}

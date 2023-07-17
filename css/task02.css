@@ -1,0 +1,29 @@
+.menus{
+    width: 80%;
+    max-width: 600px;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.menus div{
+    float: left;
+    width: 25%;
+}
+
+@media screen and (max-width:1200px){
+    .menus{
+        max-width: 600px;
+    }
+    .menus div{
+        width: 50%;
+        text-align: center;
+        align-items: center;
+    }
+}
+@media screen and (max-width:768px){
+    .menus div{
+        width: 100%;
+        float: none;
+    }
+}

@@ -1,0 +1,62 @@
+table{
+    border-collapse : collapse;
+}
+a{
+    color: #1D365E;
+}
+.cart_background{
+    width: 100%;
+    background: #c2d3de;
+    padding: 50px;
+    margin: auto;
+}
+.cart_table{
+    width: 100%;
+    max-width: 700px;
+    margin: auto;
+    background: #fff;
+    border-radius: 10px;
+    box-sizing: border-box;
+}
+.cart_table th,
+.cart_table td{
+    padding: 15px;
+    border-bottom : 1px solid #c2d3de;
+}
+.cart_table th:nth-child(2){
+    width: 400px;
+}
+.cart_edit{
+    float: left;
+    font-size: 17px;
+    text-decoration: underline;
+    color: #1D365E;
+}
+.cart_btn{
+    padding: 10px 30px 10px 30px;
+    font-size: 20px;
+    background: #1D365E;
+    border: none;
+    border-radius: 5px;
+    display: block;
+    margin-left: auto;
+    color: white;
+    cursor: pointer;
+}
+.cart_btn:hover{
+    background: #c2d3de;
+    border: 2px solid #1D365E;
+    color: #1D365E;
+}
+.cart_btn:focus{
+    background: orange;
+    color: green;
+}
+.cart_btn:active{
+    background: blue;
+    color: white;
+}
+.price{
+    font-weight: bold;
+    color: #1D365E;
+}

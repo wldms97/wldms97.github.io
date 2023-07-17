@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/cart.css">
+</head>
+<body>
+    <div class="cart_background">
+        <h3>Your Shopping Cart</h3>
+        <table class="cart_table">
+            <thead>
+                <tr>
+                    <th></th>
+                    <th class="cell_long">Item</th>
+                    <th>Amount</th>
+                    <th>Price</th>
+                    <th>Total</th>
+                </tr>
+            </thead>
+            <tbody style="text-align: center;">
+                <tr>
+                    <td><img src="img/item1.png" style="width: 50px;"></td>
+                    <td>카메라</td>
+                    <td>1</td>
+                    <td class="price">700,000₩</td>
+                    <td class="price">700,000₩</td>
+                </tr>
+                <tr>
+                    <td><img src="img/item1.png" style="width: 50px;"></td>
+                    <td>신발</td>
+                    <td>1</td>
+                    <td class="price">100,000₩</td>
+                    <td class="price">100,000₩</td>
+                </tr>
+                <tr>
+                    <td colspan="5" style="text-align: right;" class="price">총가격 : 800,000₩</td>
+                </tr>
+            </tbody>
+        </table>
+        <div style="margin-top: 30px;">
+            <p class="cart_edit"><a href="#">Edit your shopping cart</a></p>
+            <button class="cart_btn" type="submit">Choose payment method</button>
+            <div style="clear: both;"></div>
+        </div>
+    </div>
+</body>
+</html>
